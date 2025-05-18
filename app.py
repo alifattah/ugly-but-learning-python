@@ -16,7 +16,7 @@
 #print(f"UR name is {f_name} & UR last name is {l_name} \nU R {age} years old")
 
 
-# *** If Statement 
+# *** if Statement 
 #if len(f_name) >= 8:
 #    print("Wow! Such long name!")
 #elif 5 < len(f_name) < 8:
@@ -42,17 +42,31 @@
 # while i <= 5:
 #     print(i)
 #     i += 1
-count = 0
-for i in range(1, 10):
-  if i % 2 == 0:
-    count += 1
-    print(i)
-print(f"we have {count} even nambers")
+# count = 0
+# for i in range(1, 10):
+#   if i % 2 == 0:
+#     count += 1
+#     print(i)
+# print(f"we have {count} even nambers")
 
-age = int(input("Enter UR age: "))
-if age > 18:
- print(f"Wow!")
-elif 15 <=  age <= 18:
-  print (f"Hmm!")
-else:
- print(f"Hahaha")
+# age = int(input("Enter UR age: "))
+# if age > 18:
+#  print(f"Wow!")
+# elif 15 <=  age <= 18:
+#   print (f"Hmm!")
+# else:
+#  print(f"Hahaha")
+
+def get_greeting(name = "guest"):
+  return f"Hi {name}"
+
+message = get_greeting("Ali")
+print(message)
+
+
+#message = get_greeting("Ali")
+#print(message)
+
+#file = open("content.txt", "w")
+#file.write(message)
+
