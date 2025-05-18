@@ -48,3 +48,11 @@ for i in range(1, 10):
     count += 1
     print(i)
 print(f"we have {count} even nambers")
+
+age = int(input("Enter UR age: "))
+if age > 18:
+ print(f"Wow!")
+elif 15 <=  age <= 18:
+  print (f"Hmm!")
+else:
+ print(f"Hahaha")
