@@ -61,6 +61,7 @@ def get_greeting(name = "guest"):
   return f"Hi {name}"
 
 message = get_greeting("Ali")
+
 print(message)
 
 
