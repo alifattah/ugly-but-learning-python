@@ -65,9 +65,19 @@ message = get_greeting("Ali")
 print(message)
 
 
+
 #message = get_greeting("Ali")
 #print(message)
 
 #file = open("content.txt", "w")
 #file.write(message)
 
+f_name = input("nter your name")
+l_name = input("enter tour last name")
+
+def con_to_fullname(f_name, l_name):
+  return f"your full name is {f_name} {l_name}"
+
+fullname = con_to_fullname(f_name , l_name)
+
+print(fullname)
