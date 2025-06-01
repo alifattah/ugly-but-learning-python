@@ -135,3 +135,9 @@ items = [1, 'a']
 first, second = items
 
 print(first, second)
+
+
+numbers = [1, 2, 3, 5, 56]
+num1, num2, *num3 = numbers
+
+print(num1, num3)
