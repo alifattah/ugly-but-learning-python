@@ -119,7 +119,7 @@
 #         break
 #     print(f"Hello, {name}!")
 
-list = [1, 2, 3, 4, 5]
+numbers_list = [1, 2, 3, 4, 5]
 matrix = [0] * 10
 
 # print(matrix)
