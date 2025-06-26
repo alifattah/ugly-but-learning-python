@@ -141,3 +141,12 @@ numbers = [1, 2, 3, 5, 56]
 num1, num2, *num3 = numbers
 
 print(num1, num3)
+
+try:
+ age = int(input('Enter ur age: '))
+except ValueError:
+ print('enter an int num')
+
+### MAGIC METHODE TEST ###
+print(dir(int))
+
