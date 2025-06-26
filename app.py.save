@@ -1,20 +1,22 @@
 odd_even_number = int(input("enter a number: "))
 
 if odd_even_number % 2 == 0:
-  print(f"{odd_even_number} is ODD!")
+    print(f"{odd_even_number} is EVEN!")
 else:
-  print(f"{odd_even_number} is EVEN!!")
+    print(f"{odd_even_number} is ODD!")
 
 
 
 for num in range(1, 11):
- print(num)
+    print(num)
 
 
-name
+name = ""
 
 while name != "exit":
-  input("ur name?")
+    name = input("ur name? ")
+    if name != "exit":
+        print(f"Hello, {name}!")
 
 
 
